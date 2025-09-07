@@ -1,0 +1,237 @@
+:root {
+  --background-main: #eeeff1;
+  --accent-color: #34547a;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-main: #727272;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  /* list-style-type: none; */
+  line-height: 1.64;
+  width: 1920px;
+}
+.font {
+  font-family: 'Roboto', sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-style: normal; */
+  /* font-variation-settings: "width" 100; */
+  /* font-weight: 100; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 calc(50vw-555px);
+}
+
+.header {
+  padding-top: 80px;
+  background-color: var(--background-main);
+  padding-bottom: 20px;
+  /* position: sticky; */
+  top: 0;
+}
+.navigation {
+  margin-left: 400px;
+}
+.navigation--1 {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+  padding: 0;
+  /* margin: 46px; */
+}
+
+.navigation_item {
+  display: inline-block;
+  margin-right: 46px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-black);
+  letter-spacing: 0.1em;
+}
+
+.navigation__link--active {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.section-herro {
+  background-color: var(--background-main);
+  padding-top: 142px;
+  padding-bottom: 142px;
+}
+
+.section-herro--wrapper {
+  max-width: 540px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.section-herro__title {
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.section-herro__desc {
+  color: var(--color-main);
+  margin-bottom: 65px;
+}
+
+.section-herro__link {
+  background-color: var(--accent-color);
+  max-width: 225px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-white);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-herro__link1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-herro--1 {
+  background-color: var(--background-main);
+  padding-top: 112px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-herro--2 {
+  background-color: var(--background-main);
+  padding-top: 100px;
+  padding-bottom: 57px;
+}
+
+.section-herro--wrapp1 {
+  max-width: 540px;
+}
+
+.section-herro__title1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-herro__title2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-herro__desc1 {
+  color: var(--color-main);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-herro__desc2 {
+  margin-bottom: 65px;
+}
+
+.projects {
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* margin: 20px; */
+  /* max-width: 1375px; */
+}
+
+.projects__item {
+  /* margin: 20px; */
+  display: flex;
+  align-items: center;
+}
+
+.projects__desc {
+  margin-left: 20px;
+}
+
+.projects__number {
+  font-size: 21px;
+  line-height: 1;
+  color: var(--color-white);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.projects__number--2 {
+  font-size: 13px;
+}
+
+.projects__subtext {
+  color: var(--color-white);
+  margin: 0;
+  padding: 0;
+}
+
+.rectang_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectang_iteam {
+  width: 40px;
+  height: 10px;
+}
+
+.rectang-wrapper {
+  max-width: 140px;
+}
+.button-play {
+  margin-top: -350px;
+  margin-bottom: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box {
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 20px;
+  max-width: 2625px;
+}
+.footer__desc {
+  margin-left: 40px;
+}
